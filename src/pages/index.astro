@@ -1,11 +1,39 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Navbar from '../components/Navbar.astro';
 ---
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Peluquería Bella Vista</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/index.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </head>
 
-<Layout>
-	<Welcome />
-</Layout>
+  <body>
+    <header>
+      <h1>Peluquería Bella Vista</h1>
+      <Navbar />
+    </header>
+
+
+
+
+
+
+    <main>
+      <div class="bienvenida">
+        ¡Bienvenido(a) al sistema de gestión de tu peluquería!
+      </div>
+      <div class="info">
+        Aquí puedes administrar clientes, agendar reservas, llevar el control de pagos y mucho más.<br />
+        Selecciona una opción del menú para comenzar.
+      </div>
+    </main>
+
+
+
+
+	
+  </body>
+</html>
