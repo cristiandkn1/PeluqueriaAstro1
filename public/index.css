@@ -1,11 +1,11 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #181922; /* Fondo noche */
+  color: #f5f5f5;
+}
 
-      body {
-        font-family: 'Segoe UI', Arial, sans-serif;
-        margin: 0;
-        background: #f3f3f7;
-      }
-
-
+/* HEADER: no tocar */
 header {
   background: linear-gradient(90deg, #464650 0%, #13131a 100%);
   padding: 32px 0 16px 0;
@@ -16,53 +16,58 @@ header {
   overflow: hidden;
 }
 
+h1 {
+  font-size: 2.7rem;
+  margin: 0;
+  letter-spacing: 2px;
+}
 
+nav {
+  margin: 18px 0 0 0;
+}
+nav a {
+  display: inline-block;
+  margin: 0 18px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: border-bottom 0.2s;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+}
+nav a:hover {
+  border-bottom: 2px solid #fff8;
+}
 
-      h1 {
-        font-size: 2.7rem;
-        margin: 0;
-        letter-spacing: 2px;
-      }
-      nav {
-        margin: 18px 0 0 0;
-      }
-      nav a {
-        display: inline-block;
-        margin: 0 18px;
-        color: #fff;
-        font-weight: 500;
-        font-size: 1.1rem;
-        text-decoration: none;
-        transition: border-bottom 0.2s;
-        border-bottom: 2px solid transparent;
-        padding-bottom: 3px;
-      }
-      nav a:hover {
-        border-bottom: 2px solid #fff8;
-      }
-      main {
-        max-width: 620px;
-        margin: 36px auto 0 auto;
-        background: #fff;
-        border-radius: 18px;
-        box-shadow: 0 4px 24px #0001;
-        padding: 36px;
-        text-align: center;
-      }
-      .bienvenida {
-        font-size: 1.22rem;
-        color: #7a6243;
-        margin-bottom: 16px;
-      }
-      .info {
-        font-size: 1.1rem;
-        color: #5d5d5d;
-      }
-      @media (max-width: 600px) {
-        main {
-          padding: 16px;
-        }
-        h1 {
-          font-size: 2rem;
-        }
-      }
+/* MAIN modo noche */
+main {
+  max-width: 620px;
+  margin: 36px auto 0 auto;
+  background: #23243a; /* Fondo oscuro, pero no negro puro */
+  border-radius: 18px;
+  box-shadow: 0 4px 24px #0004;
+  padding: 36px;
+  text-align: center;
+  color: #e8e8f2;
+}
+
+.bienvenida {
+  font-size: 1.22rem;
+  color: #bdbfff;
+  margin-bottom: 16px;
+}
+
+.info {
+  font-size: 1.1rem;
+  color: #b5b7c6;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 16px;
+  }
+  h1 {
+    font-size: 2rem;
+  }
+}

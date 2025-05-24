@@ -1,0 +1,31 @@
+---
+import { Icon } from "astro-icon";
+---
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Prueba Astro Icon</title>
+    <style>
+      body {
+        background: #181818;
+        color: #fff;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon {
+        margin-top: 2rem;
+        /* icon color override */
+        color: #33ff99;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Prueba Astro Icon</h2>
+    <div class="icon">
+      <Icon name="lucide:home" size="3em" animation="pulse" />
+    </div>
+  </body>
+</html>

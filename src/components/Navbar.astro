@@ -1,11 +1,12 @@
 ---
+import { Icon } from 'astro-icon/components';
 ---
 <nav class="navbar">
-  <a href="/" title="Inicio"><i class="fa-solid fa-house"></i> <span>Inicio</span></a>
-  <a href="/clientes" title="Clientes"><i class="fa-solid fa-user-group"></i> <span>Clientes</span></a>
-  <a href="/reservas" title="Reservas"><i class="fa-solid fa-calendar-check"></i> <span>Reservas</span></a>
-  <a href="/servicios" title="Servicios"><i class="fa-solid fa-scissors"></i> <span>Servicios</span></a>
-  <a href="/pagos" title="Pagos"><i class="fa-solid fa-cash-register"></i> <span>Pagos</span></a>
+  <a href="/" title="Inicio"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="16" stroke-dashoffset="16" d="M4.5 21.5h15"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="16;0"/></path><path stroke-dasharray="16" stroke-dashoffset="16" d="M4.5 21.5v-13.5M19.5 21.5v-13.5"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s" values="16;0"/></path><path stroke-dasharray="28" stroke-dashoffset="28" d="M2 10l10 -8l10 8"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.4s" values="28;0"/></path><path stroke-dasharray="24" stroke-dashoffset="24" d="M9.5 21.5v-9h5v9"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.4s" values="24;0"/></path></g></svg><span>Inicio</span></a>
+  <a href="/clientes" title="Clientes"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-dasharray="28" stroke-dashoffset="28" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M4 21v-1c0 -3.31 2.69 -6 6 -6h4c3.31 0 6 2.69 6 6v1"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="28;0"/></path><path d="M12 11c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4Z"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.4s" values="28;0"/></path></g></svg> <span>Clientes</span></a>
+  <a href="/reservas" title="Reservas"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="14" height="0" x="5" y="5" fill="currentColor"><animate fill="freeze" attributeName="height" begin="0.6s" dur="0.2s" values="0;3"/></rect><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-dasharray="64" stroke-dashoffset="64" d="M12 4h7c0.55 0 1 0.45 1 1v14c0 0.55 -0.45 1 -1 1h-14c-0.55 0 -1 -0.45 -1 -1v-14c0 -0.55 0.45 -1 1 -1Z"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="64;0"/></path><path stroke-dasharray="4" stroke-dashoffset="4" d="M7 4v-2M17 4v-2"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.6s" dur="0.2s" values="4;0"/></path><path stroke-dasharray="12" stroke-dashoffset="12" d="M7 11h10"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s" values="12;0"/></path><path stroke-dasharray="8" stroke-dashoffset="8" d="M7 15h7"><animate fill="freeze" attributeName="stroke-dashoffset" begin="1s" dur="0.2s" values="8;0"/></path></g></svg> <span>Reservas</span></a>
+  <a href="/servicios" title="Servicios"><Icon name="lucide:scissors" size="1.15em" /> <span>Servicios</span></a>
+  <a href="/pagos" title="Pagos"><svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m40.454 25.016l1.374 10.44a3.28 3.28 0 0 1-2.83 3.689l-25.27 3.325a3.28 3.28 0 0 1-3.69-2.83l-.355-2.701" stroke-width="1"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M40.452 21.821v12.504a3.28 3.28 0 0 1-3.288 3.289H11.678a3.28 3.28 0 0 1-3.289-3.289v-2.399" stroke-width="1"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M41.034 17.134q.004.241-.028.488l-2.04 15.487a3.28 3.28 0 0 1-3.689 2.831L10.01 32.615a3.28 3.28 0 0 1-2.83-3.69l.314-2.392" stroke-width="1"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m14.327 5.614l24.618 6.596a3.28 3.28 0 0 1 2.325 4.028l-4.043 15.088A3.28 3.28 0 0 1 33.2 33.65L8.582 27.055a3.28 3.28 0 0 1-2.325-4.028L10.299 7.94a3.28 3.28 0 0 1 4.028-2.325" stroke-width="1"/><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m12.254 13.351l1.222-4.561l1.06 5.178l3.505-3.948l-1.222 4.56m18.316.014l2.958.792m-2.702 4.17l1.223-4.566m-2.153 13.953l-.005.019c-.224.835-1.067 1.335-1.884 1.116s-1.298-1.073-1.074-1.909l.413-1.54c.224-.836 1.067-1.336 1.884-1.117s1.298 1.073 1.074 1.909l-.005.018" stroke-width="1"/></svg> <span>Pagos</span></a>
 </nav>
 
 <style>
@@ -32,14 +33,14 @@
 }
 .navbar a:hover, .navbar a:focus {
   background: rgba(255,255,255,0.10);
-  color:rgb(118, 118, 119);
+  color: rgb(118, 118, 119);
 }
 .navbar a::after {
   content: "";
   position: absolute;
   left: 16px; right: 16px; bottom: 5px;
   height: 2.5px;
-  background: linear-gradient(90deg,rgb(148, 211, 148), #fff2);
+  background: linear-gradient(90deg, rgb(148, 211, 148), #fff2);
   transform: scaleX(0);
   transition: transform 0.25s cubic-bezier(.4,0,.2,1);
   border-radius: 2px;
@@ -47,9 +48,11 @@
 .navbar a:hover::after, .navbar a:focus::after {
   transform: scaleX(1);
 }
-.navbar i {
+.navbar svg {
   font-size: 1.15em;
-  transition: color 0.2s;
+  transition: color 0.2s, transform 0.22s cubic-bezier(.55,1.6,.45,.9);
+  display: inline-block;
+  vertical-align: middle;
 }
 @media (max-width: 640px) {
   .navbar {
